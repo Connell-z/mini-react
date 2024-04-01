@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
-  base: "mini-react",
+  base: "/mini-react/ ",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -17,8 +17,7 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'zhzhzhzhzhzhzhzhzhzhzh', link: '/开发中的难题' }
+          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
